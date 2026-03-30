@@ -19,3 +19,8 @@ bool cekPrima(int n) {
     }
     return true;
 }
+
+//function mengecek bilangan fibonacci menggunakan while loop
+bool cekFibonacci(int n) {
+    
+}
