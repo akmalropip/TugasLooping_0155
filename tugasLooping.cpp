@@ -22,5 +22,20 @@ bool cekPrima(int n) {
 
 //function mengecek bilangan fibonacci menggunakan while loop
 bool cekFibonacci(int n) {
-    
+    if (n < 0) {
+        return false;
+    }
+    int a = 0;
+    int b = 1;
+    int c = 0;
+    while (c < n) {
+        c = a + b;
+        a = b;
+        b = c; 
+    }
+    if (c == n || n == 0) {
+        return true;
+    } else {
+        return false;
+    }
 }
