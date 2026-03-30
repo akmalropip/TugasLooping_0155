@@ -7,5 +7,7 @@ int pilihan;
 
 //function mengecek bilangan prima menngunakan while loop
 bool cekPrima(int n) {
-    
+    if (n <= 1) {
+        return false;
+    }
 }
