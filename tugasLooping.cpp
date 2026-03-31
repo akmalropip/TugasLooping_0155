@@ -94,6 +94,10 @@ int main () {
             inputAngka();
             hasilFibonacci();
             break;
+
+             case 0:
+           cout << "\nKeluar dari Program. Terima Kasih telah mencoba!" << endl;
+            break;
         }
     }
 }
