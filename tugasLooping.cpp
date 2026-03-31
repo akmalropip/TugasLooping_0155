@@ -64,3 +64,13 @@ void hasilPrima () {
         cout << ">> HASIL: " << angka << " BUKAN Bilangan Prima." << endl;
     }
 }
+
+//prosedur menampilkan hasil pengecekan fibonacci
+void hasilFibonacci() {
+    if (cekFibonacci(angka)) {
+        cout << ">> HASIL: " << angka << " ADALAH Bagian dari deret Fibonacci." << endl;
+    } else {
+        cout << ">> HASIL: " << angka << " BUKAN Bagian dari deret Fibonacci." << endl;
+    }
+}
+
