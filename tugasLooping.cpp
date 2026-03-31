@@ -55,3 +55,12 @@ void inputAngka () {
     cout << "\nMasukkan angka yang ingin dicek ";
     cin >> angka;
 }
+
+//prosedur menampilkan hasil pengecekan prima
+void hasilPrima () {
+    if (cekPrima(angka)) {
+        cout << ">> HASIL: " << angka << " ADALAH Bilangan Prima." << endl;
+    } else {
+        cout << ">> HASIL: " << angka << " BUKAN Bilangan Prima." << endl;
+    }
+}
