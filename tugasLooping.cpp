@@ -85,7 +85,10 @@ int main () {
 
         //Memproses pilihan menggunakan switch case
         switch (pilihan) {
-            
+            case 1:
+            inputAngka();
+            hasilPrima();
+            break;
         }
     }
 }
