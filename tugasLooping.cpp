@@ -81,5 +81,6 @@ int main () {
 
         //menampilkan menu dan dan meminta input pilihan
         tampilkanMenu();
+        cin >> pilihan;
     }
 }
