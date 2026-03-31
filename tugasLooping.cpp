@@ -78,6 +78,8 @@ void hasilFibonacci() {
 int main () {
     pilihan = -1;
     while (pilihan != 0) {
-        
+
+        //menampilkan menu dan dan meminta input pilihan
+        tampilkanMenu();
     }
 }
