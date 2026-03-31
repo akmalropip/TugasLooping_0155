@@ -80,7 +80,7 @@ int main () {
     while (pilihan != 0) {
 
         //menampilkan menu dan dan meminta input pilihan
-        tampilkanMenu();
+        tampikanMenu();
         cin >> pilihan;
     }
 }
