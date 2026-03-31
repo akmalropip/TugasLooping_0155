@@ -39,3 +39,13 @@ bool cekFibonacci(int n) {
         return false;
     }
 }
+
+//prosedur menampilkan menu utama
+void tampikanMenu() {
+    cout << "\n=== PROGRAM PENGECEKAN BILANGAN ===" << endl;
+    cout << "1. Cek Biangan Prima" << endl;
+    cout << "2. Cek Bilangan Fibonacci" << endl;
+    cout << "0. Keluar" << endl;
+    cout << "-----------------------------------" << endl;
+    cout << "Masukkan Pilihan Anda (0/1/2) : " << endl;
+}
