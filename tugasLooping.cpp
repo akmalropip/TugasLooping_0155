@@ -82,5 +82,10 @@ int main () {
         //menampilkan menu dan dan meminta input pilihan
         tampikanMenu();
         cin >> pilihan;
+
+        //Memproses pilihan menggunakan switch case
+        switch (pilihan) {
+            
+        }
     }
 }
