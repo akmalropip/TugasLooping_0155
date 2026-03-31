@@ -49,3 +49,9 @@ void tampikanMenu() {
     cout << "-----------------------------------" << endl;
     cout << "Masukkan Pilihan Anda (0/1/2) : " << endl;
 }
+
+//prosedur input angka
+void inputAngka () {
+    cout << "\nMasukkan angka yang ingin dicek ";
+    cin >> angka;
+}
