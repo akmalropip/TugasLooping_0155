@@ -74,3 +74,7 @@ void hasilFibonacci() {
     }
 }
 
+//fungsi utama
+int main () {
+    pilihan = -1;
+}
