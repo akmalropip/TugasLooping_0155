@@ -98,6 +98,10 @@ int main () {
              case 0:
            cout << "\nKeluar dari Program. Terima Kasih telah mencoba!" << endl;
             break;
+
+            default:
+           cout << "\n[!] Pilihan tidak valid. Silahkan masukkan 0, 1, atau 2." << endl;
+            break;
         }
     }
 }
